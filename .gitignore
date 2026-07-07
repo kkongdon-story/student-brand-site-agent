@@ -1,0 +1,23 @@
+node_modules/
+.env
+.env.*
+!.env.example
+*.log
+coverage/
+dist/
+outputs/
+playwright-report/
+test-results/
+.DS_Store
+Thumbs.db
+
+# Local npm bin shims created during CLI install checks.
+/imagen
+/imagen.cmd
+/imagen.ps1
+/imagegen
+/imagegen.cmd
+/imagegen.ps1
+/openai-image
+/openai-image.cmd
+/openai-image.ps1

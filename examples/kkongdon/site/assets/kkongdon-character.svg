@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 420" role="img" aria-label="Kkongdon AI guide character">
+  <rect width="420" height="420" rx="42" fill="#f6efe2"/>
+  <circle cx="210" cy="188" r="104" fill="#fff8ea" stroke="#251812" stroke-width="8"/>
+  <path d="M124 146c32-58 132-75 187-15" fill="none" stroke="#8a5a32" stroke-width="16" stroke-linecap="round"/>
+  <circle cx="171" cy="184" r="13" fill="#251812"/>
+  <circle cx="249" cy="184" r="13" fill="#251812"/>
+  <path d="M178 238c21 20 54 20 75 0" fill="none" stroke="#251812" stroke-width="8" stroke-linecap="round"/>
+  <path d="M99 263c-31 29-45 64-43 101h308c4-42-13-76-49-102" fill="#3f6f4f" stroke="#251812" stroke-width="8"/>
+  <path d="M144 305h132" stroke="#f6efe2" stroke-width="10" stroke-linecap="round"/>
+  <path d="M132 84l-22-34M290 82l27-31" stroke="#c94b37" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="91" cy="94" r="18" fill="#c94b37"/>
+  <circle cx="329" cy="93" r="18" fill="#3f6f4f"/>
+</svg>
+

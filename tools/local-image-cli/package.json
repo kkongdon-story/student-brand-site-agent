@@ -1,0 +1,14 @@
+{
+  "name": "@kkongdon/local-image-cli",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "imagen": "bin/kkongdon-image-cli.mjs",
+    "imagegen": "bin/kkongdon-image-cli.mjs",
+    "openai-image": "bin/kkongdon-image-cli.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

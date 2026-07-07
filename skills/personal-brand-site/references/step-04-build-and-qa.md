@@ -1,0 +1,53 @@
+# Stage 4 - Build and QA
+
+Goal: build a beginner-editable static site and verify it on the real surface.
+
+## Build Prompt Requirements
+
+The builder must create:
+
+- `index.html`
+- `styles.css`
+- `script.js`
+- `robots.txt`
+- `sitemap.xml`
+- `llms.txt`
+- `README.md`
+
+Default stack:
+
+- Static HTML/CSS/JS
+- GSAP if available through CDN
+- IntersectionObserver fallback for scroll reveals
+
+## Interaction Minimum
+
+- Hover: CTA or card movement
+- Click: visible mode/detail/contact action response
+- Scroll: section reveal or progress
+
+## Revision Prompt Pattern
+
+```text
+Change:
+- ...
+
+Keep:
+- DESIGN.md direction
+- responsive layout
+- SEO/OG/GEO basics
+- beginner-editable file split
+
+After editing, explain changed files and rerun QA.
+```
+
+## QA
+
+Run:
+
+```bash
+node scripts/run-visual-qa.mjs --target examples/kkongdon/site --out qa/
+```
+
+Pass only when desktop/mobile screenshots and `report.json` exist and report `pass: true`.
+

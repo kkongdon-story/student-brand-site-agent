@@ -1,0 +1,32 @@
+{
+  "name": "student-brand-site-agent",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Codex/Claude-compatible personal brand website agent for beginner-friendly lecture workflows.",
+  "type": "module",
+  "scripts": {
+    "check:image-cli": "node scripts/check-image-cli.mjs --json",
+    "install:skill": "node scripts/install-skill.mjs",
+    "install:image-cli": "npm install -g ./tools/local-image-cli",
+    "validate:example": "node scripts/validate-design-contract.mjs examples/kkongdon/DESIGN.md",
+    "validate:kkongdon": "node scripts/validate-design-contract.mjs examples/kkongdon/DESIGN.md",
+    "qa:example": "node scripts/run-visual-qa.mjs --target examples/kkongdon/site --out ../.omo/evidence/C003-visual-qa",
+    "qa:kkongdon": "node scripts/run-visual-qa.mjs --target examples/kkongdon/site --out ../.omo/evidence/C003-visual-qa"
+  },
+  "files": [
+    "README.md",
+    "PUBLISH.md",
+    "design/",
+    "docs/",
+    "examples/",
+    "scripts/",
+    "skills/",
+    "tools/"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "playwright": "1.58.2"
+  }
+}

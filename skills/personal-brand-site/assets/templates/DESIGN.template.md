@@ -20,17 +20,57 @@ CTA: the exact button label and destination.
 
 List the chosen reference URLs or screenshots, then translate them into web-design language. Name what to borrow, such as layout rhythm, typography scale, interaction style, material texture, spacing, or component behavior. Also name what must not be copied.
 
-## 5. Visual Direction
+## 5. Reference Evidence Pack
+
+Create at least three evidence cards: structure reference, mood reference, and motion/component reference.
+
+```text
+Reference:
+Source URL or file:
+Capture:
+Liked section:
+Bring:
+Avoid:
+AI-readable material:
+Design language:
+Prompt asset:
+```
+
+The capture can be a screenshot path, a folder path, or a precise capture task. The AI-readable material must say whether the builder should use URL, screenshot, memo, color palette, component name, motion description, or code idea.
+
+## 6. Visual Direction
 
 Describe the page mood as implementable decisions: background material, contrast, dominant color, accent color, line weight, image treatment, density, and whether the page should feel editorial, studio-like, playful, brutalist, quiet, premium, or experimental.
 
-## 6. Image Assets
+## 7. Design System Constraints
+
+Define the visual archetype and layout archetype. Then set concrete rules for type scale, spacing rhythm, color/material, border radius, line weight, button treatment, component shape, image treatment, motion intensity, and anti-generic guardrails.
+
+## 8. Prompt Pack
+
+Summarize the reusable prompts from `prompt-pack.md`.
+
+```text
+GOAL:
+FORMAT:
+LAYOUT:
+TYPE SYSTEM:
+COLOR + MATERIAL:
+IMAGERY / UI STYLE:
+COPY:
+CONSTRAINTS:
+NEGATIVE PROMPT:
+```
+
+Also include short section prompts, interaction prompts, image prompts, and revision prompts.
+
+## 9. Image Assets
 
 - `assets/character.png`: how the local image CLI should generate or replace the main character, portrait, object, or hero visual.
 - `assets/og-image.png`: how the local image CLI should generate the social preview image.
 - `assets/reference-01.png`: optional screenshot or visual reference used only for design direction.
 
-## 7. Color System
+## 10. Color System
 
 - background: #000000
 - ink: #ffffff
@@ -40,15 +80,15 @@ Describe the page mood as implementable decisions: background material, contrast
 
 Explain where each color appears. Use at least three concrete colors.
 
-## 8. Typography
+## 11. Typography
 
 Define the type direction and sizes. Include hero scale, body size, heading hierarchy, font family approach, and whether text should be wide, compact, quiet, heavy, or editorial. Letter spacing should normally be 0.
 
-## 9. Layout
+## 12. Layout
 
 Describe the full page structure in order. Include nav, hero, proof or story sections, offer or work sections, CTA section, and footer. Explain whether sections are full-bleed, split, stacked, grid-based, or scroll-telling.
 
-## 10. Section Detail
+## 13. Section Detail
 
 1. Hero: visual, headline, CTA, and first interaction.
 2. About: who this is for and why the visitor should care.
@@ -57,7 +97,7 @@ Describe the full page structure in order. Include nav, hero, proof or story sec
 5. Work, resources, or projects: concrete proof.
 6. Contact: links and final CTA.
 
-## 11. Motion and Interaction
+## 14. Motion and Interaction
 
 Hover: define what moves, changes color, glows, reveals, tilts, or shifts.
 
@@ -65,7 +105,9 @@ Click: define what visibly changes after clicking.
 
 Scroll: define reveal timing, progress indicator, parallax, pinned section, or section transition.
 
-## 12. Components
+Reduced motion: define what remains usable when animation is disabled.
+
+## 15. Components
 
 - Primary CTA
 - Secondary link
@@ -74,11 +116,11 @@ Scroll: define reveal timing, progress indicator, parallax, pinned section, or s
 - Project/resource item
 - Contact block
 
-## 13. Responsive Rules
+## 16. Responsive Rules
 
 Describe the mobile layout. Include how the hero stacks, how text sizes reduce, how buttons wrap, and the rule that there must be no horizontal overflow.
 
-## 14. SEO / OG / GEO
+## 17. SEO / OG / GEO
 
 Title: exact browser/search title.
 
@@ -92,7 +134,7 @@ JSON-LD: Person, Organization, LocalBusiness, CreativeWork, or Course schema cho
 
 Required files: `robots.txt`, `sitemap.xml`, `llms.txt`.
 
-## 15. Implementation Files
+## 18. Implementation Files
 
 - `index.html`
 - `styles.css`
@@ -102,20 +144,22 @@ Required files: `robots.txt`, `sitemap.xml`, `llms.txt`.
 - `llms.txt`
 - `README.md`
 
-## 16. QA Acceptance Criteria
+## 19. QA Acceptance Criteria
 
 - desktop screenshot exists
 - mobile screenshot exists
 - hover interaction changes a visible or computed style
 - click interaction changes visible text or state
 - scroll reveal or scroll progress works
+- reference evidence and prompt pack are present
 - metadata, OG, canonical, JSON-LD, robots, sitemap, and llms files exist
 - all local referenced assets exist
 - no horizontal overflow on desktop or mobile
 
-## 17. Must Not Drift
+## 20. Must Not Drift
 
 - Do not copy the reference site one-to-one.
 - Do not leave generated images as low-quality placeholders.
 - Do not end with a static page that has no hover, click, or scroll response.
 - Do not invent credentials, career history, clients, or metrics.
+- Do not fall back to generic gradient SaaS cards unless the reference evidence explicitly requires it.

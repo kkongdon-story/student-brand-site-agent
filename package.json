@@ -8,6 +8,7 @@
     "check:image-cli": "node scripts/check-image-cli.mjs --json",
     "install:skill": "node scripts/install-skill.mjs",
     "install:image-cli": "npm install -g ./tools/local-image-cli",
+    "validate:mengto": "node scripts/validate-vendored-mengto-skills.mjs",
     "validate:example": "node scripts/validate-design-contract.mjs examples/kkongdon/DESIGN.md",
     "validate:kkongdon": "node scripts/validate-design-contract.mjs examples/kkongdon/DESIGN.md",
     "qa:example": "node scripts/run-visual-qa.mjs --target examples/kkongdon/site --out ../.omo/evidence/C003-visual-qa",

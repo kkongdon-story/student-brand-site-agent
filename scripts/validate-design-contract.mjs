@@ -21,7 +21,10 @@ const requiredSections = [
   "Brand Materials",
   "Hero Copy",
   "Reference DNA",
+  "Reference Evidence Pack",
   "Visual Direction",
+  "Design System Constraints",
+  "Prompt Pack",
   "Image Assets",
   "Color System",
   "Typography",
@@ -53,9 +56,22 @@ const sectionRules = {
     minChars: 90,
     any: [/레퍼런스|reference|inspiration/i, /복제|copy|clone|drift|훔치/i]
   },
+  "Reference Evidence Pack": {
+    minChars: 220,
+    all: [/Source URL|source|출처|file|파일/i, /Capture|screenshot|캡처|스크린샷/i, /Bring|가져|borrow|adapt/i, /Avoid|피하|금지|copy/i, /AI-readable|AI가 읽|component|motion|palette|code idea/i],
+    minMatches: { pattern: /Reference\s*:|###\s+Reference|레퍼런스\s*:/gi, count: 2, label: "at least 2 reference evidence cards" }
+  },
   "Visual Direction": {
     minChars: 80,
     any: [/배경|질감|texture|mood|tone|분위기/i, /색|color|palette|포인트/i]
+  },
+  "Design System Constraints": {
+    minChars: 180,
+    all: [/visual archetype|비주얼 아키타입|시각 원형|editorial|studio|poster|lab|magazine/i, /layout archetype|레이아웃 아키타입|hero|scroll|sticky|split|gallery/i, /spacing|간격|rhythm|리듬/i, /type|font|타이포/i, /motion|animation|reduced-motion|움직임/i, /generic|AI\s*default|흔한|카드 남발|gradient/i]
+  },
+  "Prompt Pack": {
+    minChars: 220,
+    all: [/GOAL\s*:/i, /FORMAT\s*:/i, /LAYOUT\s*:/i, /TYPE SYSTEM\s*:/i, /COLOR\s*\+\s*MATERIAL\s*:/i, /NEGATIVE PROMPT\s*:/i, /Section|섹션/i, /Interaction|hover|click|scroll|인터랙션/i]
   },
   "Image Assets": {
     minChars: 50,

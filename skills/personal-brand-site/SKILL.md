@@ -31,6 +31,7 @@ Read only the reference needed for the current stage:
 
 - Brand intake: `references/step-01-brand-materials.md`
 - Reference evidence, prompt assets, and image direction: `references/step-02-reference-dna.md`
+- Reference source guide: `references/reference-source-guide.md`
 - MengTo core skill routing: `references/mengto-core-skill-routing.md`
 - Local image workflow: `references/step-02-image-assets.md`
 - DESIGN.md contract: `references/step-03-design-contract.md`

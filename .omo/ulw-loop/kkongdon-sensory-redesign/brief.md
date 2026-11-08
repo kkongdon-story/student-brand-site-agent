@@ -1,0 +1,1 @@
+감각적인 꽁돈 웹디자인 페이지를 만든다. 기존 outputs/kkongdon-ai-brand-site/site 정적 사이트를 https://www.nomoredesign.co.uk/의 editorial motion rhythm, black-white chapter contrast, work/media strip, large typographic hero DNA를 꽁돈 브랜드에 맞게 번역한다. 실제 프로젝트 캡처 3장을 유지하고 브라우저 QA 및 독립 visual/design review로 증명한다.

@@ -1,5 +1,10 @@
 # Lecture Flow
 
+Use `docs/lecture-story-flow.md` as the detailed story outline.
+Use `docs/lecture-script-v1.md` as the first full spoken script draft.
+Use `docs/lecture-script-v2-user-voice.md` as the user-voice script draft.
+This file is the short timing map.
+
 ## Before Class
 
 - Codex or AI tool login
@@ -29,4 +34,3 @@ Stage 4: build the static site and run browser QA.
 ## 55-60 min
 
 Expansion: swap references, regenerate image direction, strengthen motion, prepare GitHub/Vercel publishing.
-

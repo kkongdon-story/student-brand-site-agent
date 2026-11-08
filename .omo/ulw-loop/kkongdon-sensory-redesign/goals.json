@@ -1,0 +1,68 @@
+{
+  "version": 1,
+  "createdAt": "2026-07-07T23:40:14.747Z",
+  "updatedAt": "2026-07-08T00:23:13.575Z",
+  "briefPath": ".omo/ulw-loop/kkongdon-sensory-redesign/brief.md",
+  "goalsPath": ".omo/ulw-loop/kkongdon-sensory-redesign/goals.json",
+  "ledgerPath": ".omo/ulw-loop/kkongdon-sensory-redesign/ledger.jsonl",
+  "codexGoalMode": "aggregate",
+  "goals": [
+    {
+      "id": "G001-outputs-kkongdon-ai-brand-site-site",
+      "title": "감각적인 꽁돈 웹디자인 페이지를 만든다. 기존 outputs/kkongdon-ai-brand-site/site 정적 사이트를...",
+      "objective": "감각적인 꽁돈 웹디자인 페이지를 만든다. 기존 outputs/kkongdon-ai-brand-site/site 정적 사이트를 https://www.nomoredesign.co.uk/의 editorial motion rhythm, black-white chapter contrast, work/media strip, large typographic hero DNA를 꽁돈 브랜드에 맞게 번역한다. 실제 프로젝트 캡처 3장을 유지하고 브라우저 QA 및 독립 visual/design review로 증명한다.",
+      "status": "complete",
+      "successCriteria": [
+        {
+          "id": "C001",
+          "scenario": "Browser visual happy path: node scripts/run-visual-qa.mjs --target outputs/kkongdon-ai-brand-site/site --out outputs/kkongdon-ai-brand-site/qa-ulw; PASS iff report.json pass=true and desktop.png shows reference-inspired word-composition hero, black work/media strip, alternating editorial chapters, and actual project screenshot showcase.",
+          "userModel": "happy",
+          "expectedEvidence": "outputs/kkongdon-ai-brand-site/qa-ulw/report.json pass=true plus outputs/kkongdon-ai-brand-site/qa-ulw/desktop.png fresh screenshot",
+          "essential": true,
+          "capturedEvidence": "Final desktop/browser QA passed: node scripts/check-sensory-structure.mjs; node scripts/validate-design-contract.mjs outputs/kkongdon-ai-brand-site/DESIGN.md; node scripts/run-visual-qa.mjs --target outputs/kkongdon-ai-brand-site/site --out outputs/kkongdon-ai-brand-site/qa-ulw. Evidence: qa-ulw/report.json pass=true, desktopOverflow=false, mobileOverflow=false, desktop.png shows word-hero, black media-reel/work-strip, alternating chapters, real screenshots. Cleanup: QA script closed Playwright browser and local server.",
+          "status": "pass",
+          "capturedAt": "2026-07-08T00:18:54.745Z"
+        },
+        {
+          "id": "C002",
+          "scenario": "Mobile/CJK responsive edge: node scripts/run-visual-qa.mjs --target outputs/kkongdon-ai-brand-site/site --out outputs/kkongdon-ai-brand-site/qa-ulw-mobile; PASS iff report.json pass=true, mobile.png at 390px has no horizontal overflow, no clipped controls, project images remain inspectable, and hero word composition is compact without awkward one-syllable CJK orphan lines.",
+          "userModel": "edge",
+          "expectedEvidence": "outputs/kkongdon-ai-brand-site/qa-ulw-mobile/report.json pass=true plus outputs/kkongdon-ai-brand-site/qa-ulw-mobile/mobile.png fresh screenshot reviewed",
+          "essential": true,
+          "capturedEvidence": "Final mobile/CJK QA passed: node scripts/run-visual-qa.mjs --target outputs/kkongdon-ai-brand-site/site --out outputs/kkongdon-ai-brand-site/qa-ulw-mobile. Evidence: qa-ulw-mobile/report.json pass=true, mobileOverflow=false, mobile.png reviewed after polish; mobile header is non-sticky, hero spacing improved, media cue added, body line-height improved. Cleanup: QA script closed Playwright browser and local server.",
+          "status": "pass",
+          "capturedAt": "2026-07-08T00:18:54.896Z"
+        },
+        {
+          "id": "C003",
+          "scenario": "Independent visual/design review regression: spawn read-only visual/design reviewers with reference screenshot outputs/kkongdon-ai-brand-site/qa/reference-nomoredesign.png, actual qa-ulw screenshots, DESIGN.md, index.html, styles.css, script.js; PASS iff reviewer returns unconditional PASS/no blocking findings for reference-inspired editorial rhythm, real DOM/design-system implementation, interactions, and CJK precision.",
+          "userModel": "regression",
+          "expectedEvidence": "Reviewer final message with VERDICT PASS and no blocking findings, plus fresh qa-ulw artifacts referenced",
+          "essential": false,
+          "capturedEvidence": "Independent review PASS: verifier agent PASS on structural/design/QA commands; code-reviewer PASS on word-hero, data-word-cycle, media-reel, work-strip, three chapter-black sections, real images, CTA/click/hover/scroll; vision reviewer PASS on editorial word hero, black media strip, alternating chapter rhythm, non-generic Korean brand feel, mobile readability. Minor vision suggestions were applied and QA reran green.",
+          "status": "pass",
+          "capturedAt": "2026-07-08T00:18:55.007Z"
+        }
+      ],
+      "attempt": 0,
+      "createdAt": "2026-07-07T23:40:14.747Z",
+      "updatedAt": "2026-07-08T00:23:13.575Z",
+      "completedAt": "2026-07-08T00:23:13.575Z",
+      "evidence": "All criteria C001-C003 pass. Final QA commands passed after visual polish; reviewers returned PASS; artifacts saved under qa-ulw and qa-ulw-mobile."
+    }
+  ],
+  "codexObjective": "Complete the durable ulw-loop plan in .omo/ulw-loop/kkongdon-sensory-redesign/goals.json, including later accepted/appended stories, under the original brief constraints; use .omo/ulw-loop/kkongdon-sensory-redesign/ledger.jsonl as the audit trail.",
+  "aggregateCompletion": {
+    "status": "complete",
+    "completedAt": "2026-07-08T00:23:13.575Z",
+    "evidence": "All criteria C001-C003 pass. Final QA commands passed after visual polish; reviewers returned PASS; artifacts saved under qa-ulw and qa-ulw-mobile.",
+    "codexGoal": {
+      "threadId": "019f3d64-02bd-7f03-afde-1d5b4e130361",
+      "objective": "Complete the durable ulw-loop plan in .omo/ulw-loop/kkongdon-sensory-redesign/goals.json, including later accepted/appended stories, under the original brief constraints; use .omo/ulw-loop/kkongdon-sensory-redesign/ledger.jsonl as the audit trail.",
+      "status": "complete",
+      "tokensUsed": 732040,
+      "timeUsedSeconds": 2514,
+      "sourceCodexGoalObjective": "[$omo:ulw-loop](C:\\Users\\js480\\.codex\\plugins\\cache\\sisyphuslabs\\omo\\4.16.0\\skills\\ulw-loop\\SKILL.md) 감각적인 웹디자인 페이지를 만들어"
+    }
+  }
+}

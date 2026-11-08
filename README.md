@@ -157,6 +157,14 @@ personal-brand-site 스킬을 사용해서 개인 브랜드 홈페이지를 만�
 
 처음 보면 파일 이름이 낯설 수 있습니다. 아래 정도만 알아두면 됩니다.
 
+강사용 진행 자료는 아래 문서에 있습니다.
+
+```text
+docs/lecture-story-flow.md
+docs/lecture-script-v1.md
+docs/lecture-script-v2-user-voice.md
+```
+
 ### `DESIGN.md`
 
 AI에게 넘기는 디자인 지시서입니다.
@@ -193,6 +201,12 @@ AI에게 넘기는 디자인 지시서입니다.
 - AI에게 줄 자료가 URL인지, 스크린샷인지, 색상표인지, 움직임 설명인지
 
 이렇게 적어야 Codex가 “분위기만 비슷한 흔한 페이지”로 도망가지 않습니다.
+
+레퍼런스 사이트를 어디서 찾아야 할지 모르겠다면 아래 문서를 보면 됩니다.
+
+```text
+docs/reference-site-guide.md
+```
 
 ### `prompt-pack.md`
 

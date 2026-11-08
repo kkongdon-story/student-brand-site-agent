@@ -36,6 +36,10 @@
 
 - `reference-dna.md`
 
+수강생 안내:
+
+- `docs/reference-site-guide.md`
+
 사용하는 핵심 스킬:
 
 - `stitched-full-page-capture`: 레퍼런스 사이트를 화면별로 캡처

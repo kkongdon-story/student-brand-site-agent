@@ -19,6 +19,8 @@ Inputs:
 - Desired visitor action
 - Student's rough taste words, such as Hongdae, editorial, premium, playful, cinematic, calm, bold, handmade, or experimental
 
+Before recommending sources, read `references/reference-source-guide.md` and pick only 2-4 sources that match the student's situation.
+
 Process:
 
 1. Recommend 3 reference directions only: structure, mood, and motion/component.

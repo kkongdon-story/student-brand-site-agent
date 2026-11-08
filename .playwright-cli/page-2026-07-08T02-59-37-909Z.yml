@@ -1,0 +1,886 @@
+- generic [ref=e2]:
+  - region "Notifications alt+T"
+  - banner [ref=e3]:
+    - navigation [ref=e4]:
+      - link "svgl" [ref=e7] [cursor=pointer]:
+        - /url: /
+        - img [ref=e8]
+        - heading "svgl" [level=2] [ref=e11]
+      - generic [ref=e12]:
+        - generic [ref=e13]:
+          - link "Sponsor me on GitHub" [ref=e14] [cursor=pointer]:
+            - /url: https://github.com/sponsors/pheralb
+            - img
+          - button "Toggle theme" [ref=e15] [cursor=pointer]:
+            - img
+            - generic [ref=e16]: Toggle theme
+          - button "Settings" [ref=e17] [cursor=pointer]:
+            - img
+        - generic [ref=e18]:
+          - separator [ref=e19]
+          - link "View on GitHub (5,000 stars)" [ref=e20] [cursor=pointer]:
+            - /url: https://github.com/pheralb/svgl
+            - img
+            - generic [ref=e21]: 5.0k
+          - separator [ref=e22]
+          - link "send Submit" [ref=e23] [cursor=pointer]:
+            - /url: https://github.com/pheralb/svgl?tab=readme-ov-file#-getting-started
+            - img "send" [ref=e24]:
+              - img
+            - generic [ref=e25]: Submit
+  - generic [ref=e26]:
+    - complementary [ref=e27]:
+      - navigation [ref=e28]:
+        - link "Home" [ref=e29] [cursor=pointer]:
+          - /url: /
+          - img [ref=e30]
+          - paragraph [ref=e33]: Home
+        - link "Favorites" [ref=e34] [cursor=pointer]:
+          - /url: /favorites
+          - generic [ref=e35]:
+            - img [ref=e36]
+            - paragraph [ref=e38]: Favorites
+        - link "API" [ref=e39] [cursor=pointer]:
+          - /url: /docs/api
+          - img [ref=e40]
+          - paragraph [ref=e42]: API
+        - link "shadcn/ui" [ref=e43] [cursor=pointer]:
+          - /url: /docs/shadcn-ui
+          - img [ref=e44]
+          - paragraph [ref=e47]: shadcn/ui
+        - link "Extensions" [ref=e48] [cursor=pointer]:
+          - /url: /extensions
+          - img [ref=e49]
+          - paragraph [ref=e52]: Extensions
+      - separator [ref=e54]
+      - navigation [ref=e55]:
+        - generic [ref=e58]:
+          - link "AI 67" [ref=e59] [cursor=pointer]:
+            - /url: /directory/ai
+            - paragraph [ref=e60]: AI
+            - generic [ref=e61]: "67"
+          - link "Adobe 56" [ref=e62] [cursor=pointer]:
+            - /url: /directory/adobe
+            - paragraph [ref=e63]: Adobe
+            - generic [ref=e64]: "56"
+          - link "Analytics 7" [ref=e65] [cursor=pointer]:
+            - /url: /directory/analytics
+            - paragraph [ref=e66]: Analytics
+            - generic [ref=e67]: "7"
+          - link "Authentication 10" [ref=e68] [cursor=pointer]:
+            - /url: /directory/authentication
+            - paragraph [ref=e69]: Authentication
+            - generic [ref=e70]: "10"
+          - link "Automation 4" [ref=e71] [cursor=pointer]:
+            - /url: /directory/automation
+            - paragraph [ref=e72]: Automation
+            - generic [ref=e73]: "4"
+          - link "Browser 13" [ref=e74] [cursor=pointer]:
+            - /url: /directory/browser
+            - paragraph [ref=e75]: Browser
+            - generic [ref=e76]: "13"
+          - link "CMS 13" [ref=e77] [cursor=pointer]:
+            - /url: /directory/cms
+            - paragraph [ref=e78]: CMS
+            - generic [ref=e79]: "13"
+          - link "Communications 5" [ref=e80] [cursor=pointer]:
+            - /url: /directory/communications
+            - paragraph [ref=e81]: Communications
+            - generic [ref=e82]: "5"
+          - link "Community 13" [ref=e83] [cursor=pointer]:
+            - /url: /directory/community
+            - paragraph [ref=e84]: Community
+            - generic [ref=e85]: "13"
+          - link "Compiler 9" [ref=e86] [cursor=pointer]:
+            - /url: /directory/compiler
+            - paragraph [ref=e87]: Compiler
+            - generic [ref=e88]: "9"
+          - link "Config 2" [ref=e89] [cursor=pointer]:
+            - /url: /directory/config
+            - paragraph [ref=e90]: Config
+            - generic [ref=e91]: "2"
+          - link "Crypto 22" [ref=e92] [cursor=pointer]:
+            - /url: /directory/crypto
+            - paragraph [ref=e93]: Crypto
+            - generic [ref=e94]: "22"
+          - link "Cybersecurity 2" [ref=e95] [cursor=pointer]:
+            - /url: /directory/cybersecurity
+            - paragraph [ref=e96]: Cybersecurity
+            - generic [ref=e97]: "2"
+          - link "Database 23" [ref=e98] [cursor=pointer]:
+            - /url: /directory/database
+            - paragraph [ref=e99]: Database
+            - generic [ref=e100]: "23"
+          - link "Design 62" [ref=e101] [cursor=pointer]:
+            - /url: /directory/design
+            - paragraph [ref=e102]: Design
+            - generic [ref=e103]: "62"
+          - link "Devtool 25" [ref=e104] [cursor=pointer]:
+            - /url: /directory/devtool
+            - paragraph [ref=e105]: Devtool
+            - generic [ref=e106]: "25"
+          - link "Education 13" [ref=e107] [cursor=pointer]:
+            - /url: /directory/education
+            - paragraph [ref=e108]: Education
+            - generic [ref=e109]: "13"
+          - link "Entertainment 34" [ref=e110] [cursor=pointer]:
+            - /url: /directory/entertainment
+            - paragraph [ref=e111]: Entertainment
+            - generic [ref=e112]: "34"
+          - link "Framework 52" [ref=e113] [cursor=pointer]:
+            - /url: /directory/framework
+            - paragraph [ref=e114]: Framework
+            - generic [ref=e115]: "52"
+          - link "Google 22" [ref=e116] [cursor=pointer]:
+            - /url: /directory/google
+            - paragraph [ref=e117]: Google
+            - generic [ref=e118]: "22"
+          - link "Hardware 2" [ref=e119] [cursor=pointer]:
+            - /url: /directory/hardware
+            - paragraph [ref=e120]: Hardware
+            - generic [ref=e121]: "2"
+          - link "Hosting 15" [ref=e122] [cursor=pointer]:
+            - /url: /directory/hosting
+            - paragraph [ref=e123]: Hosting
+            - generic [ref=e124]: "15"
+          - link "IaC 1" [ref=e125] [cursor=pointer]:
+            - /url: /directory/iac
+            - paragraph [ref=e126]: IaC
+            - generic [ref=e127]: "1"
+          - link "IoT 1" [ref=e128] [cursor=pointer]:
+            - /url: /directory/iot
+            - paragraph [ref=e129]: IoT
+            - generic [ref=e130]: "1"
+          - link "Language 36" [ref=e131] [cursor=pointer]:
+            - /url: /directory/language
+            - paragraph [ref=e132]: Language
+            - generic [ref=e133]: "36"
+          - link "Library 77" [ref=e134] [cursor=pointer]:
+            - /url: /directory/library
+            - paragraph [ref=e135]: Library
+            - generic [ref=e136]: "77"
+          - link "Marketplace 10" [ref=e137] [cursor=pointer]:
+            - /url: /directory/marketplace
+            - paragraph [ref=e138]: Marketplace
+            - generic [ref=e139]: "10"
+          - link "Microsoft 27" [ref=e140] [cursor=pointer]:
+            - /url: /directory/microsoft
+            - paragraph [ref=e141]: Microsoft
+            - generic [ref=e142]: "27"
+          - link "Monorepo 2" [ref=e143] [cursor=pointer]:
+            - /url: /directory/monorepo
+            - paragraph [ref=e144]: Monorepo
+            - generic [ref=e145]: "2"
+          - link "Music 6" [ref=e146] [cursor=pointer]:
+            - /url: /directory/music
+            - paragraph [ref=e147]: Music
+            - generic [ref=e148]: "6"
+          - link "Nuxt 6" [ref=e149] [cursor=pointer]:
+            - /url: /directory/nuxt
+            - paragraph [ref=e150]: Nuxt
+            - generic [ref=e151]: "6"
+          - link "Payment 8" [ref=e152] [cursor=pointer]:
+            - /url: /directory/payment
+            - paragraph [ref=e153]: Payment
+            - generic [ref=e154]: "8"
+          - link "Platform 24" [ref=e155] [cursor=pointer]:
+            - /url: /directory/platform
+            - paragraph [ref=e156]: Platform
+            - generic [ref=e157]: "24"
+          - link "Privacy 2" [ref=e158] [cursor=pointer]:
+            - /url: /directory/privacy
+            - paragraph [ref=e159]: Privacy
+            - generic [ref=e160]: "2"
+          - link "Secrets 1" [ref=e161] [cursor=pointer]:
+            - /url: /directory/secrets
+            - paragraph [ref=e162]: Secrets
+            - generic [ref=e163]: "1"
+          - link "Social 28" [ref=e164] [cursor=pointer]:
+            - /url: /directory/social
+            - paragraph [ref=e165]: Social
+            - generic [ref=e166]: "28"
+          - link "Software 283" [ref=e167] [cursor=pointer]:
+            - /url: /directory/software
+            - paragraph [ref=e168]: Software
+            - generic [ref=e169]: "283"
+          - link "Sync Engine 1" [ref=e170] [cursor=pointer]:
+            - /url: /directory/sync engine
+            - paragraph [ref=e171]: Sync Engine
+            - generic [ref=e172]: "1"
+          - link "Themes 1" [ref=e173] [cursor=pointer]:
+            - /url: /directory/themes
+            - paragraph [ref=e174]: Themes
+            - generic [ref=e175]: "1"
+          - link "Vercel 6" [ref=e176] [cursor=pointer]:
+            - /url: /directory/vercel
+            - paragraph [ref=e177]: Vercel
+            - generic [ref=e178]: "6"
+          - link "VoidZero 5" [ref=e179] [cursor=pointer]:
+            - /url: /directory/voidzero
+            - paragraph [ref=e180]: VoidZero
+            - generic [ref=e181]: "5"
+    - main [ref=e182]:
+      - generic [ref=e183]:
+        - img
+        - searchbox "Search..." [ref=e184]
+        - generic [ref=e185]:
+          - img [ref=e186]
+          - generic [ref=e188]: K
+      - generic [ref=e193]:
+        - generic [ref=e194]:
+          - generic [ref=e195]:
+            - img [ref=e196]
+            - paragraph [ref=e200]: 665 logos
+          - button "Sort A-Z" [ref=e202] [cursor=pointer]:
+            - img
+            - generic [ref=e203]: Sort A-Z
+        - generic [ref=e204]:
+          - generic [ref=e205]:
+            - img [ref=e206]
+            - paragraph [ref=e207]:
+              - text: Each SVG includes a link to its respective product. Permission must be obtained before using a logo. For removal requests,
+              - link "please open an issue on GitHub" [ref=e208] [cursor=pointer]:
+                - /url: https://github.com/pheralb/svgl/issues/new
+              - text: .
+          - button "Accept" [ref=e209] [cursor=pointer]:
+            - img
+            - generic [ref=e210]: Accept
+        - generic [ref=e212]:
+          - generic [ref=e213]:
+            - generic [ref=e214]:
+              - button "Brand Resources" [ref=e215] [cursor=pointer]:
+                - img [ref=e216]
+              - button "Add Grida to favorites" [ref=e220] [cursor=pointer]:
+                - img [ref=e221]
+            - img "Grida"
+            - generic [ref=e223]:
+              - paragraph [ref=e224]: Grida
+              - link "Design" [ref=e226] [cursor=pointer]:
+                - /url: /directory/design
+            - generic [ref=e227]:
+              - button "Copy SVG element as svg file, React TSX code, or React JSX code" [ref=e228] [cursor=pointer]:
+                - img
+              - button "Download SVG" [ref=e229] [cursor=pointer]:
+                - img
+              - link "Website" [ref=e230] [cursor=pointer]:
+                - /url: https://grida.co
+                - img
+              - button "Show wordmark SVG" [ref=e231] [cursor=pointer]:
+                - img
+          - generic [ref=e232]:
+            - button "Add Postqued to favorites" [ref=e234] [cursor=pointer]:
+              - img [ref=e235]
+            - img "Postqued"
+            - generic [ref=e237]:
+              - paragraph [ref=e238]: Postqued
+              - link "Software" [ref=e240] [cursor=pointer]:
+                - /url: /directory/software
+            - generic [ref=e241]:
+              - button "Copy SVG element as svg file, React TSX code, or React JSX code" [ref=e242] [cursor=pointer]:
+                - img
+              - button "Download SVG" [ref=e243] [cursor=pointer]:
+                - img
+              - link "Website" [ref=e244] [cursor=pointer]:
+                - /url: https://postqued.com
+                - img
+          - generic [ref=e245]:
+            - generic [ref=e246]:
+              - button "Brand Resources" [ref=e247] [cursor=pointer]:
+                - img [ref=e248]
+              - button "Add ClickUp to favorites" [ref=e252] [cursor=pointer]:
+                - img [ref=e253]
+            - img "ClickUp"
+            - generic [ref=e255]:
+              - paragraph [ref=e256]: ClickUp
+              - generic [ref=e257]:
+                - link "This icon is part of the Software,Platform category" [ref=e258] [cursor=pointer]:
+                  - /url: /directory/software
+                  - text: Software
+                - button "More Tags" [ref=e259] [cursor=pointer]:
+                  - img [ref=e260]
+            - generic [ref=e264]:
+              - button "Copy SVG element as svg file, React TSX code, or React JSX code" [ref=e265] [cursor=pointer]:
+                - img
+              - button "Download SVG" [ref=e266] [cursor=pointer]:
+                - img
+              - link "Website" [ref=e267] [cursor=pointer]:
+                - /url: https://clickup.com/
+                - img
+              - button "Show wordmark SVG" [ref=e268] [cursor=pointer]:
+                - img
+          - generic [ref=e269]:
+            - generic [ref=e270]:
+              - button "Brand Resources" [ref=e271] [cursor=pointer]:
+                - img [ref=e272]
+              - button "Add Trello to favorites" [ref=e276] [cursor=pointer]:
+                - img [ref=e277]
+            - img "Trello"
+            - generic [ref=e279]:
+              - paragraph [ref=e280]: Trello
+              - generic [ref=e281]:
+                - link "This icon is part of the Software,Platform category" [ref=e282] [cursor=pointer]:
+                  - /url: /directory/software
+                  - text: Software
+                - button "More Tags" [ref=e283] [cursor=pointer]:
+                  - img [ref=e284]
+            - generic [ref=e288]:
+              - button "Copy SVG element as svg file, React TSX code, or React JSX code" [ref=e289] [cursor=pointer]:
+                - img
+              - button "Download SVG" [ref=e290] [cursor=pointer]:
+                - img
+              - link "Website" [ref=e291] [cursor=pointer]:
+                - /url: https://trello.com/
+                - img
+              - button "Show wordmark SVG" [ref=e292] [cursor=pointer]:
+                - img
+          - generic [ref=e293]:
+            - button "Add Photopea to favorites" [ref=e295] [cursor=pointer]:
+              - img [ref=e296]
+            - img "Photopea"
+            - generic [ref=e298]:
+              - paragraph [ref=e299]: Photopea
+              - generic [ref=e300]:
+                - link "This icon is part of the Design,Software category" [ref=e301] [cursor=pointer]:
+                  - /url: /directory/design
+                  - text: Design
+                - button "More Tags" [ref=e302] [cursor=pointer]:
+                  - img [ref=e303]
+            - generic [ref=e307]:
+              - button "Copy SVG element as svg file, React TSX code, or React JSX code" [ref=e308] [cursor=pointer]:
+                - img
+              - button "Download Light & Dark variants" [ref=e309] [cursor=pointer]:
+                - img
+              - link "Website" [ref=e310] [cursor=pointer]:
+                - /url: https://www.photopea.com/
+                - img
+          - generic [ref=e311]:
+            - generic [ref=e312]:
+              - button "Brand Resources" [ref=e313] [cursor=pointer]:
+                - img [ref=e314]
+              - button "Add Nano to favorites" [ref=e318] [cursor=pointer]:
+                - img [ref=e319]
+            - img "Nano"
+            - generic [ref=e321]:
+              - paragraph [ref=e322]: Nano
+              - link "This icon is part of the Crypto category" [ref=e324] [cursor=pointer]:
+                - /url: /directory/crypto
+                - text: Crypto
+            - generic [ref=e325]:
+              - button "Copy SVG element as svg file, React TSX code, or React JSX code" [ref=e326] [cursor=pointer]:
+                - img
+              - button "Download SVG" [ref=e327] [cursor=pointer]:
+                - img
+              - link "Website" [ref=e328] [cursor=pointer]:
+                - /url: https://nano.org
+                - img
+              - button "Show wordmark SVG" [ref=e329] [cursor=pointer]:
+                - img
+          - generic [ref=e330]:
+            - generic [ref=e331]:
+              - button "Brand Resources" [ref=e332] [cursor=pointer]:
+                - img [ref=e333]
+              - button "Add Acrobat Reader to favorites" [ref=e337] [cursor=pointer]:
+                - img [ref=e338]
+            - img "Acrobat Reader"
+            - generic [ref=e340]:
+              - paragraph [ref=e341]: Acrobat Reader
+              - generic [ref=e342]:
+                - link "This icon is part of the Adobe,Software,Design category" [ref=e343] [cursor=pointer]:
+                  - /url: /directory/adobe
+                  - text: Adobe
+                - button "More Tags" [ref=e344] [cursor=pointer]:
+                  - img [ref=e345]
+            - generic [ref=e349]:
+              - button "Copy SVG element as svg file, React TSX code, or React JSX code" [ref=e350] [cursor=pointer]:
+                - img
+              - button "Download Light & Dark variants" [ref=e351] [cursor=pointer]:
+                - img
+              - link "Website" [ref=e352] [cursor=pointer]:
+                - /url: https://www.adobe.com/acrobat/pdf-reader.html
+                - img
+          - generic [ref=e353]:
+            - generic [ref=e354]:
+              - button "Brand Resources" [ref=e355] [cursor=pointer]:
+                - img [ref=e356]
+              - button "Add Acrobat Reader to favorites" [ref=e360] [cursor=pointer]:
+                - img [ref=e361]
+            - img "Acrobat Reader"
+            - generic [ref=e363]:
+              - paragraph [ref=e364]: Acrobat Reader
+              - generic [ref=e365]:
+                - link "This icon is part of the Adobe,Software,Design category" [ref=e366] [cursor=pointer]:
+                  - /url: /directory/adobe
+                  - text: Adobe
+                - button "More Tags" [ref=e367] [cursor=pointer]:
+                  - img [ref=e368]
+            - generic [ref=e372]:
+              - button "Copy SVG element as svg file, React TSX code, or React JSX code" [ref=e373] [cursor=pointer]:
+                - img
+              - button "Download Light & Dark variants" [ref=e374] [cursor=pointer]:
+                - img
+              - link "Website" [ref=e375] [cursor=pointer]:
+                - /url: https://www.adobe.com/acrobat/pdf-reader.html
+                - img
+          - generic [ref=e376]:
+            - button "Add Runframe to favorites" [ref=e378] [cursor=pointer]:
+              - img [ref=e379]
+            - img "Runframe"
+            - generic [ref=e381]:
+              - paragraph [ref=e382]: Runframe
+              - generic [ref=e383]:
+                - link "This icon is part of the Software,Devtool,Platform category" [ref=e384] [cursor=pointer]:
+                  - /url: /directory/software
+                  - text: Software
+                - button "More Tags" [ref=e385] [cursor=pointer]:
+                  - img [ref=e386]
+            - generic [ref=e390]:
+              - button "Copy SVG element as svg file, React TSX code, or React JSX code" [ref=e391] [cursor=pointer]:
+                - img
+              - button "Download Light & Dark variants" [ref=e392] [cursor=pointer]:
+                - img
+              - link "Website" [ref=e393] [cursor=pointer]:
+                - /url: https://runframe.io
+                - img
+          - generic [ref=e394]:
+            - button "Add Cerebras to favorites" [ref=e396] [cursor=pointer]:
+              - img [ref=e397]
+            - img "Cerebras"
+            - generic [ref=e399]:
+              - paragraph [ref=e400]: Cerebras
+              - link "This icon is part of the AI category" [ref=e402] [cursor=pointer]:
+                - /url: /directory/ai
+                - text: AI
+            - generic [ref=e403]:
+              - button "Copy SVG element as svg file, React TSX code, or React JSX code" [ref=e404] [cursor=pointer]:
+                - img
+              - button "Download SVG" [ref=e405] [cursor=pointer]:
+                - img
+              - link "Website" [ref=e406] [cursor=pointer]:
+                - /url: https://www.cerebras.ai/
+                - img
+              - button "Show wordmark SVG" [ref=e407] [cursor=pointer]:
+                - img
+          - generic [ref=e408]:
+            - button "Add Leedlime to favorites" [ref=e410] [cursor=pointer]:
+              - img [ref=e411]
+            - img "Leedlime"
+            - generic [ref=e413]:
+              - paragraph [ref=e414]: Leedlime
+              - generic [ref=e415]:
+                - link "This icon is part of the AI,Software,Automation category" [ref=e416] [cursor=pointer]:
+                  - /url: /directory/ai
+                  - text: AI
+                - button "More Tags" [ref=e417] [cursor=pointer]:
+                  - img [ref=e418]
+            - generic [ref=e422]:
+              - button "Copy SVG element as svg file, React TSX code, or React JSX code" [ref=e423] [cursor=pointer]:
+                - img
+              - button "Download Light & Dark variants" [ref=e424] [cursor=pointer]:
+                - img
+              - link "Website" [ref=e425] [cursor=pointer]:
+                - /url: https://leedlime.com
+                - img
+          - generic [ref=e426]:
+            - generic [ref=e427]:
+              - button "Brand Resources" [ref=e428] [cursor=pointer]:
+                - img [ref=e429]
+              - button "Add Conductor to favorites" [ref=e433] [cursor=pointer]:
+                - img [ref=e434]
+            - img "Conductor"
+            - generic [ref=e436]:
+              - paragraph [ref=e437]: Conductor
+              - generic [ref=e438]:
+                - link "This icon is part of the AI,Software,Devtool category" [ref=e439] [cursor=pointer]:
+                  - /url: /directory/ai
+                  - text: AI
+                - button "More Tags" [ref=e440] [cursor=pointer]:
+                  - img [ref=e441]
+            - generic [ref=e445]:
+              - button "Copy SVG element as svg file, React TSX code, or React JSX code" [ref=e446] [cursor=pointer]:
+                - img
+              - button "Download SVG" [ref=e447] [cursor=pointer]:
+                - img
+              - link "Website" [ref=e448] [cursor=pointer]:
+                - /url: https://www.conductor.build/
+                - img
+              - button "Show wordmark SVG" [ref=e449] [cursor=pointer]:
+                - img
+          - generic [ref=e450]:
+            - button "Add Codex to favorites" [ref=e452] [cursor=pointer]:
+              - img [ref=e453]
+            - img "Codex"
+            - generic [ref=e455]:
+              - paragraph [ref=e456]: Codex
+              - generic [ref=e457]:
+                - link "This icon is part of the AI,Software category" [ref=e458] [cursor=pointer]:
+                  - /url: /directory/ai
+                  - text: AI
+                - button "More Tags" [ref=e459] [cursor=pointer]:
+                  - img [ref=e460]
+            - generic [ref=e464]:
+              - button "Copy SVG element as svg file, React TSX code, or React JSX code" [ref=e465] [cursor=pointer]:
+                - img
+              - button "Download SVG" [ref=e466] [cursor=pointer]:
+                - img
+              - link "Website" [ref=e467] [cursor=pointer]:
+                - /url: https://openai.com/codex/
+                - img
+              - button "Show wordmark SVG" [ref=e468] [cursor=pointer]:
+                - img
+          - generic [ref=e469]:
+            - generic [ref=e470]:
+              - button "Brand Resources" [ref=e471] [cursor=pointer]:
+                - img [ref=e472]
+              - button "Add Orshot to favorites" [ref=e476] [cursor=pointer]:
+                - img [ref=e477]
+            - img "Orshot"
+            - generic [ref=e479]:
+              - paragraph [ref=e480]: Orshot
+              - generic [ref=e481]:
+                - link "This icon is part of the Platform,Design,Automation,AI category" [ref=e482] [cursor=pointer]:
+                  - /url: /directory/platform
+                  - text: Platform
+                - button "More Tags" [ref=e483] [cursor=pointer]:
+                  - img [ref=e484]
+            - generic [ref=e488]:
+              - button "Copy SVG element as svg file, React TSX code, or React JSX code" [ref=e489] [cursor=pointer]:
+                - img
+              - button "Download SVG" [ref=e490] [cursor=pointer]:
+                - img
+              - link "Website" [ref=e491] [cursor=pointer]:
+                - /url: https://orshot.com
+                - img
+              - button "Show wordmark SVG" [ref=e492] [cursor=pointer]:
+                - img
+          - generic [ref=e493]:
+            - button "Add Interfere to favorites" [ref=e495] [cursor=pointer]:
+              - img [ref=e496]
+            - img "Interfere"
+            - generic [ref=e498]:
+              - paragraph [ref=e499]: Interfere
+              - link "Software" [ref=e501] [cursor=pointer]:
+                - /url: /directory/software
+            - generic [ref=e502]:
+              - button "Copy SVG element as svg file, React TSX code, or React JSX code" [ref=e503] [cursor=pointer]:
+                - img
+              - button "Download SVG" [ref=e504] [cursor=pointer]:
+                - img
+              - link "Website" [ref=e505] [cursor=pointer]:
+                - /url: https://interfere.com/
+                - img
+              - button "Show wordmark SVG" [ref=e506] [cursor=pointer]:
+                - img
+          - generic [ref=e507]:
+            - button "Add Stripe to favorites" [ref=e509] [cursor=pointer]:
+              - img [ref=e510]
+            - img "Stripe"
+            - generic [ref=e512]:
+              - paragraph [ref=e513]: Stripe
+              - generic [ref=e514]:
+                - link "This icon is part of the Software,Payment category" [ref=e515] [cursor=pointer]:
+                  - /url: /directory/software
+                  - text: Software
+                - button "More Tags" [ref=e516] [cursor=pointer]:
+                  - img [ref=e517]
+            - generic [ref=e521]:
+              - button "Copy SVG element as svg file, React TSX code, or React JSX code" [ref=e522] [cursor=pointer]:
+                - img
+              - button "Download SVG" [ref=e523] [cursor=pointer]:
+                - img
+              - link "Website" [ref=e524] [cursor=pointer]:
+                - /url: https://stripe.com/
+                - img
+              - button "Show wordmark SVG" [ref=e525] [cursor=pointer]:
+                - img
+          - generic [ref=e526]:
+            - generic [ref=e527]:
+              - button "Brand Resources" [ref=e528] [cursor=pointer]:
+                - img [ref=e529]
+              - button "Add Xata to favorites" [ref=e533] [cursor=pointer]:
+                - img [ref=e534]
+            - img "Xata"
+            - generic [ref=e536]:
+              - paragraph [ref=e537]: Xata
+              - generic [ref=e538]:
+                - link "This icon is part of the Database,AI category" [ref=e539] [cursor=pointer]:
+                  - /url: /directory/database
+                  - text: Database
+                - button "More Tags" [ref=e540] [cursor=pointer]:
+                  - img [ref=e541]
+            - generic [ref=e545]:
+              - button "Copy SVG element as svg file, React TSX code, or React JSX code" [ref=e546] [cursor=pointer]:
+                - img
+              - button "Download SVG" [ref=e547] [cursor=pointer]:
+                - img
+              - link "Website" [ref=e548] [cursor=pointer]:
+                - /url: https://xata.io/
+                - img
+              - button "Show wordmark SVG" [ref=e549] [cursor=pointer]:
+                - img
+          - generic [ref=e550]:
+            - button "Add Render to favorites" [ref=e552] [cursor=pointer]:
+              - img [ref=e553]
+            - img "Render"
+            - generic [ref=e555]:
+              - paragraph [ref=e556]: Render
+              - generic [ref=e557]:
+                - link "This icon is part of the Software,Hosting category" [ref=e558] [cursor=pointer]:
+                  - /url: /directory/software
+                  - text: Software
+                - button "More Tags" [ref=e559] [cursor=pointer]:
+                  - img [ref=e560]
+            - generic [ref=e564]:
+              - button "Copy SVG element as svg file, React TSX code, or React JSX code" [ref=e565] [cursor=pointer]:
+                - img
+              - button "Download SVG" [ref=e566] [cursor=pointer]:
+                - img
+              - link "Website" [ref=e567] [cursor=pointer]:
+                - /url: https://render.com/
+                - img
+              - button "Show wordmark SVG" [ref=e568] [cursor=pointer]:
+                - img
+          - generic [ref=e569]:
+            - button "Add Dracula to favorites" [ref=e571] [cursor=pointer]:
+              - img [ref=e572]
+            - img "Dracula"
+            - generic [ref=e574]:
+              - paragraph [ref=e575]: Dracula
+              - link "This icon is part of the Themes category" [ref=e577] [cursor=pointer]:
+                - /url: /directory/themes
+                - text: Themes
+            - generic [ref=e578]:
+              - button "Copy SVG element as svg file, React TSX code, or React JSX code" [ref=e579] [cursor=pointer]:
+                - img
+              - button "Download SVG" [ref=e580] [cursor=pointer]:
+                - img
+              - link "Website" [ref=e581] [cursor=pointer]:
+                - /url: https://draculatheme.com/
+                - img
+          - generic [ref=e582]:
+            - button "Add OpenClaw to favorites" [ref=e584] [cursor=pointer]:
+              - img [ref=e585]
+            - img "OpenClaw"
+            - generic [ref=e587]:
+              - paragraph [ref=e588]: OpenClaw
+              - generic [ref=e589]:
+                - link "This icon is part of the AI,Software category" [ref=e590] [cursor=pointer]:
+                  - /url: /directory/ai
+                  - text: AI
+                - button "More Tags" [ref=e591] [cursor=pointer]:
+                  - img [ref=e592]
+            - generic [ref=e596]:
+              - button "Copy SVG element as svg file, React TSX code, or React JSX code" [ref=e597] [cursor=pointer]:
+                - img
+              - button "Download Light & Dark variants" [ref=e598] [cursor=pointer]:
+                - img
+              - link "Website" [ref=e599] [cursor=pointer]:
+                - /url: https://openclaw.ai/
+                - img
+          - generic [ref=e600]:
+            - button "Add OpenCode to favorites" [ref=e602] [cursor=pointer]:
+              - img [ref=e603]
+            - img "OpenCode"
+            - generic [ref=e605]:
+              - paragraph [ref=e606]: OpenCode
+              - generic [ref=e607]:
+                - link "This icon is part of the AI,Software category" [ref=e608] [cursor=pointer]:
+                  - /url: /directory/ai
+                  - text: AI
+                - button "More Tags" [ref=e609] [cursor=pointer]:
+                  - img [ref=e610]
+            - generic [ref=e614]:
+              - button "Copy SVG element as svg file, React TSX code, or React JSX code" [ref=e615] [cursor=pointer]:
+                - img
+              - button "Download SVG" [ref=e616] [cursor=pointer]:
+                - img
+              - link "Website" [ref=e617] [cursor=pointer]:
+                - /url: https://opencode.ai/
+                - img
+              - button "Show wordmark SVG" [ref=e618] [cursor=pointer]:
+                - img
+          - generic [ref=e619]:
+            - button "Add vlt to favorites" [ref=e621] [cursor=pointer]:
+              - img [ref=e622]
+            - img "vlt"
+            - generic [ref=e624]:
+              - paragraph [ref=e625]: vlt
+              - link "Software" [ref=e627] [cursor=pointer]:
+                - /url: /directory/software
+            - generic [ref=e628]:
+              - button "Copy SVG element as svg file, React TSX code, or React JSX code" [ref=e629] [cursor=pointer]:
+                - img
+              - button "Download SVG" [ref=e630] [cursor=pointer]:
+                - img
+              - link "Website" [ref=e631] [cursor=pointer]:
+                - /url: https://www.vlt.sh
+                - img
+              - button "Show wordmark SVG" [ref=e632] [cursor=pointer]:
+                - img
+          - generic [ref=e633]:
+            - generic [ref=e634]:
+              - button "Brand Resources" [ref=e635] [cursor=pointer]:
+                - img [ref=e636]
+              - button "Add Glide to favorites" [ref=e640] [cursor=pointer]:
+                - img [ref=e641]
+            - img "Glide"
+            - generic [ref=e643]:
+              - paragraph [ref=e644]: Glide
+              - generic [ref=e645]:
+                - link "This icon is part of the AI,Software category" [ref=e646] [cursor=pointer]:
+                  - /url: /directory/ai
+                  - text: AI
+                - button "More Tags" [ref=e647] [cursor=pointer]:
+                  - img [ref=e648]
+            - generic [ref=e652]:
+              - button "Copy SVG element as svg file, React TSX code, or React JSX code" [ref=e653] [cursor=pointer]:
+                - img
+              - button "Download SVG" [ref=e654] [cursor=pointer]:
+                - img
+              - link "Website" [ref=e655] [cursor=pointer]:
+                - /url: https://www.glideapps.com/
+                - img
+              - button "Show wordmark SVG" [ref=e656] [cursor=pointer]:
+                - img
+          - generic [ref=e657]:
+            - generic [ref=e658]:
+              - button "Brand Resources" [ref=e659] [cursor=pointer]:
+                - img [ref=e660]
+              - button "Add Manus to favorites" [ref=e664] [cursor=pointer]:
+                - img [ref=e665]
+            - img "Manus"
+            - generic [ref=e667]:
+              - paragraph [ref=e668]: Manus
+              - generic [ref=e669]:
+                - link "This icon is part of the AI,Software category" [ref=e670] [cursor=pointer]:
+                  - /url: /directory/ai
+                  - text: AI
+                - button "More Tags" [ref=e671] [cursor=pointer]:
+                  - img [ref=e672]
+            - generic [ref=e676]:
+              - button "Copy SVG element as svg file, React TSX code, or React JSX code" [ref=e677] [cursor=pointer]:
+                - img
+              - button "Download SVG" [ref=e678] [cursor=pointer]:
+                - img
+              - link "Website" [ref=e679] [cursor=pointer]:
+                - /url: https://www.manus.ai/
+                - img
+              - button "Show wordmark SVG" [ref=e680] [cursor=pointer]:
+                - img
+          - generic [ref=e681]:
+            - button "Add Midjourney to favorites" [ref=e683] [cursor=pointer]:
+              - img [ref=e684]
+            - img "Midjourney"
+            - generic [ref=e686]:
+              - paragraph [ref=e687]: Midjourney
+              - generic [ref=e688]:
+                - link "This icon is part of the AI,Software category" [ref=e689] [cursor=pointer]:
+                  - /url: /directory/ai
+                  - text: AI
+                - button "More Tags" [ref=e690] [cursor=pointer]:
+                  - img [ref=e691]
+            - generic [ref=e695]:
+              - button "Copy SVG element as svg file, React TSX code, or React JSX code" [ref=e696] [cursor=pointer]:
+                - img
+              - button "Download SVG" [ref=e697] [cursor=pointer]:
+                - img
+              - link "Website" [ref=e698] [cursor=pointer]:
+                - /url: https://www.midjourney.com/
+                - img
+          - generic [ref=e699]:
+            - button "Add Microsoft Office to favorites" [ref=e701] [cursor=pointer]:
+              - img [ref=e702]
+            - img "Microsoft Office"
+            - generic [ref=e704]:
+              - paragraph [ref=e705]: Microsoft Office
+              - generic [ref=e706]:
+                - link "This icon is part of the Microsoft,Software category" [ref=e707] [cursor=pointer]:
+                  - /url: /directory/microsoft
+                  - text: Microsoft
+                - button "More Tags" [ref=e708] [cursor=pointer]:
+                  - img [ref=e709]
+            - generic [ref=e713]:
+              - button "Copy SVG element as svg file, React TSX code, or React JSX code" [ref=e714] [cursor=pointer]:
+                - img
+              - button "Download Light & Dark variants" [ref=e715] [cursor=pointer]:
+                - img
+              - link "Website" [ref=e716] [cursor=pointer]:
+                - /url: https://www.office.com/
+                - img
+          - generic [ref=e717]:
+            - button "Add Hotmart to favorites" [ref=e719] [cursor=pointer]:
+              - img [ref=e720]
+            - img "Hotmart"
+            - generic [ref=e722]:
+              - paragraph [ref=e723]: Hotmart
+              - link "Marketplace" [ref=e725] [cursor=pointer]:
+                - /url: /directory/marketplace
+            - generic [ref=e726]:
+              - button "Copy SVG element as svg file, React TSX code, or React JSX code" [ref=e727] [cursor=pointer]:
+                - img
+              - button "Download SVG" [ref=e728] [cursor=pointer]:
+                - img
+              - link "Website" [ref=e729] [cursor=pointer]:
+                - /url: https://www.hotmart.com/
+                - img
+              - button "Show wordmark SVG" [ref=e730] [cursor=pointer]:
+                - img
+          - generic [ref=e731]:
+            - button "Add Google Analytics to favorites" [ref=e733] [cursor=pointer]:
+              - img [ref=e734]
+            - img "Google Analytics"
+            - generic [ref=e736]:
+              - paragraph [ref=e737]: Google Analytics
+              - generic [ref=e738]:
+                - link "This icon is part of the Google,Software category" [ref=e739] [cursor=pointer]:
+                  - /url: /directory/google
+                  - text: Google
+                - button "More Tags" [ref=e740] [cursor=pointer]:
+                  - img [ref=e741]
+            - generic [ref=e745]:
+              - button "Copy SVG element as svg file, React TSX code, or React JSX code" [ref=e746] [cursor=pointer]:
+                - img
+              - button "Download Light & Dark variants" [ref=e747] [cursor=pointer]:
+                - img
+              - link "Website" [ref=e748] [cursor=pointer]:
+                - /url: https://analytics.google.com/
+                - img
+          - generic [ref=e749]:
+            - button "Add Google Chat to favorites" [ref=e751] [cursor=pointer]:
+              - img [ref=e752]
+            - img "Google Chat"
+            - generic [ref=e754]:
+              - paragraph [ref=e755]: Google Chat
+              - generic [ref=e756]:
+                - link "This icon is part of the Google,Software category" [ref=e757] [cursor=pointer]:
+                  - /url: /directory/google
+                  - text: Google
+                - button "More Tags" [ref=e758] [cursor=pointer]:
+                  - img [ref=e759]
+            - generic [ref=e763]:
+              - button "Copy SVG element as svg file, React TSX code, or React JSX code" [ref=e764] [cursor=pointer]:
+                - img
+              - button "Download Light & Dark variants" [ref=e765] [cursor=pointer]:
+                - img
+              - link "Website" [ref=e766] [cursor=pointer]:
+                - /url: https://chat.google.com/
+                - img
+          - generic [ref=e767]:
+            - button "Add Google Slides to favorites" [ref=e769] [cursor=pointer]:
+              - img [ref=e770]
+            - img "Google Slides"
+            - generic [ref=e772]:
+              - paragraph [ref=e773]: Google Slides
+              - generic [ref=e774]:
+                - link "This icon is part of the Google,Software category" [ref=e775] [cursor=pointer]:
+                  - /url: /directory/google
+                  - text: Google
+                - button "More Tags" [ref=e776] [cursor=pointer]:
+                  - img [ref=e777]
+            - generic [ref=e781]:
+              - button "Copy SVG element as svg file, React TSX code, or React JSX code" [ref=e782] [cursor=pointer]:
+                - img
+              - button "Download Light & Dark variants" [ref=e783] [cursor=pointer]:
+                - img
+              - link "Website" [ref=e784] [cursor=pointer]:
+                - /url: https://slides.google.com/
+                - img
